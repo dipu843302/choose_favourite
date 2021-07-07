@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="84dp"
+        android:background="#0583EA"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="16.5dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:text="What topic do you love?"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="47dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="105dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="31dp"
+            android:text="Books"
+            android:textStyle="bold"
+            android:background="#0583EA"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:textStyle="bold"
+            android:background="#F0F2F3"
+
+            android:layout_marginLeft="211dp"
+            android:text="Podcasts"
+            android:textColor="#0583EA" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="244dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="31dp"
+            android:text="News"
+            android:textStyle="bold"
+            android:background="#F0F2F3"
+            android:textColor="#0583EA" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:textStyle="bold"
+            android:background="#F0F2F3"
+
+            android:layout_marginLeft="211dp"
+            android:text="Business"
+            android:textColor="#0583EA" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="379dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="31dp"
+            android:text="Entertainment"
+            android:textStyle="bold"
+            android:background="#F0F2F3"
+            android:textColor="#0583EA" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:textStyle="bold"
+            android:background="#0583EA"
+
+            android:layout_marginLeft="211dp"
+            android:text="Sports"
+            android:textColor="#F0F3F4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="487dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="31dp"
+            android:text="Technology"
+            android:textStyle="bold"
+            android:background="#0583EA"
+            android:textColor="#EEEFF1" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="211dp"
+            android:background="#FBFBFB"
+
+            android:text="Pronunciation"
+            android:textColor="#0583EA"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="600dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="31dp"
+            android:background="#F2F4F6"
+            android:text="Grammer"
+            android:textColor="#0583EA"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="211dp"
+            android:background="#FBFBFB"
+
+            android:text="Health"
+            android:textColor="#0583EA"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="0583EA"
+        android:layout_marginTop="700dp"
+        >
+        <Button
+            android:layout_width="209dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="21sp"
+            android:text="Continue"
+            android:background="@color/white"
+            android:textColor="#0583EA"
+            android:layout_marginLeft="101dp"/>
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>
